@@ -1,0 +1,22 @@
+{
+  "name": "modular-html-kit",
+  "version": "1.0.0",
+  "description": "Modular HTML Kit using Gulp and Handlebars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "handlebars",
+    "html",
+    "modular"
+  ],
+  "author": "Chris Gregori",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-rename": "^1.2.2"
+  }
+}
