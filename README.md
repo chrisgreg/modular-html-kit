@@ -1,6 +1,6 @@
 ## modular-html-kit
 
-Starter kit for using handlebars, json and gulp to create HTML pages
+Starter kit for using handlebars, JSON and gulp to generate static HTML pages
 
 ### To install
 ```
@@ -15,4 +15,10 @@ $ npm install
 $ npm run build
 ```
 
-Edit the static data and create as many files as you like
+### To watch for changes
+
+```
+$ npm run watch
+```
+
+Edit `data/static-data.json` and utilise the data in handlebars files to create HTML files and partials.

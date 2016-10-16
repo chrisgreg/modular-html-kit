@@ -20,3 +20,13 @@ gulp.task('default', function () {
 		.pipe(rename('hello.html'))
 		.pipe(gulp.dest('dist'));
 });
+
+gulp.task('watch', function() {
+	gulp.start('default');
+
+	gulp.watch([
+		 'src/*',
+		 'src/partials/*'
+  ], ['default']);
+
+})
